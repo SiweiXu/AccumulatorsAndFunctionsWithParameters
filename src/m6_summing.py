@@ -136,8 +136,8 @@ def sum_square_roots(n):
     total = 0
     for k in range(n + 1):
         total += math.sqrt(2 * k)
-# My friend told me to use += to simplify things when I asked him about the error.
-# "+=" substitutes "plus what it was."
+# My friend told me to use += to simplify things when I asked him about the error between Maple calculation and Python.
+# "+=" substitutes "+ what it was."
     return total
 
 
